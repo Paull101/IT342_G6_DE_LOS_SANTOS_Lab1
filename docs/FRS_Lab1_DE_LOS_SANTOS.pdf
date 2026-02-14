@@ -1,0 +1,48 @@
+### 1. Project Overview
+
+* **System Name:** User Registration and Authentication System
+* **Developer:** IT342_G5_DE_LOS_SANTOS
+* **Session:** Laboratory Session 1 (Backend & Web)
+
+### 2. Database Design (ERD)
+
+* **Description:** This section defines the structure of the `auth_system_db` maintained in **phpMyAdmin**.
+* **ERD Visualization:** *[Insert the image exported from your ERD editor here]*
+* **ERD Metadata:** Reference the file `ERD.json` located in the same directory for the full schema sequence.
+* **Data Dictionary:**
+* `id`: Primary Key, Auto-Increment.
+* `username`: Unique identifier for login.
+* `email`: User contact address.
+* `password`: BCrypt encrypted string.
+
+
+
+### 3. System Flow (UML Sequence Diagram)
+
+* **Process:** User Registration & Login Flow.
+* **Logic:**
+1. **Web UI (ReactJS)** captures user input.
+2. **Backend (Spring Boot)** receives the POST request.
+3. **Security Layer** processes password encryption via **BCrypt**.
+4. **Database (MySQL)** stores or retrieves the record.
+
+
+
+### 4. Web UI Screenshots
+
+* **Register Page:** Screenshot showing the input fields for the new user.
+* **Login Page:** Screenshot showing the authentication interface.
+* **Dashboard:** Screenshot of the protected route visible only after successful login.
+* **Logout:** Screenshot showing the system redirecting to the login page after session termination.
+
+---
+
+## 🛠️ File Checklist for your `/docs` Folder
+
+Ensure these three files are present before you commit to GitHub:
+
+1. **`FRS_Lab1_DE_LOS_SANTOS.pdf`**: The main document containing the sections above.
+2. **`ERD.json`**: The raw data file from your ERD editor showing the sequence.
+3. **`system_diagram.png`**: A high-resolution export of your UML Sequence Diagram.
+
+---
