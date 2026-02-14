@@ -2,7 +2,7 @@
 
 **IT342 Laboratory Session 1** **Student/Client:** DE_LOS_SANTOS
 
-**Course Group:** IT342_G5
+**Course Group:** IT342_G6
 
 ## 📌 Project Objective
 
